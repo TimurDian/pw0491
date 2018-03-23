@@ -47,108 +47,153 @@ table {
 	border-spacing: 0;
 }
 
+/*css reset*/
 body{
-	font: 16px/28px arial, san-serif;
+	font:16px/28px arial,san-serif;
 	background-color: #eaeaea;
-	background-image: url(bdy.png);
-	color: #333333;
+	color: black;
+	background-image: url(img/eight.png);
 
 }
 
-.container	{
+.container{
+;
 	width: 960px;
-	margin:auto;
-	background-color: #ffffff
-} 
+	margin: auto;
+	background-color: white;
+}
 
 .header{
-	padding: 20px; 
+	padding: 20px;
+	padding-bottom: 10px;
 }
 
 .header .judul{
 	font-size: 40px;
 	font-weight: bold;
-	font-family: verdana; 
+	font-family: Broadway;
 }
 
 .header ul li{
 	display: inline-block;
 	margin-top: 20px;
-	margin-right: 10px; 
-
+	margin-right: 10px;
 }
 
 .header a{
-	text-decoration: none;
-	color: coral;
-	padding: 3px;
+	text-decoration:none;
+	font-size: 20px;
+	color: Dodgerblue;
+	padding: 5px;
+	font-family: Bernard MT Condensed;
 }
 
 .header a:hover{
 	background-color: lightskyblue;
 	color: white;
+
 }
 
-.hero img{
-	width: 960px;
-	height:200px;
-	background-image: url(../hero.jpg);
+.hero{
+	height: 280px;
+	background-image: url(img/hero.png);
 	background-size: cover;
-	border-top:5px solid coral;
-	border-bottom:5px solid #333;
-	background-position: 0 -180;
-	
-
+	background-position: 0 -190px;
+	border-top: 5px solid Dodgerblue;
+	border-bottom: 5px solid Dodgerblue;
 }
 
-.content{
+.main{
+	width: 600px;
 	padding: 20px;
+	box-sizing: border-box;
+	float: left;
 }
 
-.content h2{
+.main h2{
 	font-size: 28px;
 	font-weight: bold;
 }
 
-.content .penulis{
-	font-size: 11px;
-	margin-top: -5px;
-
+.main .penulis{
+	font-size: 12px;
+	margin-top: 3px;
 }
 
-.content .penulis a{
-	color: coral;
+.main .penulis a{
+	color: Dodgerblue;
 	text-decoration: none;
 }
 
-.content .penulis a:hover{
+.main a:hover{
 	background-color: lightskyblue;
 	color: white;
 }
 
-
-.content p{
+.main p{
 	margin-bottom: 20px;
 	font-size: 14px;
 	text-align: justify;
 }
 
-
-
-.content h3{
+.main h3{
 	font-size: 15px;
 	font-family: verdana;
 	padding-bottom: 10px;
 	font-weight: bold;
 }
+}
+
+.sidebar{
+	width: 300px;
+	float: left;
+	padding: 20px;
+}
+
+.sidebar h3{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.sidebar img{
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidebar p{
+	font: 12px/18px arial;
+	text-align: justify;
+}
 
 .footer{
-	background-color: #333333;
+	background-color: Dodgerblue;
+	padding: 10px;
 }
 
 .footer .copy{
-	color: #eaeaea;
+	color:#eaeaea;
+	font-weight: bold;
 	text-align: center;
-	font-size: 12px;
-	padding: 10px;
 }
+
+
+/*clearfix*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
+
+
