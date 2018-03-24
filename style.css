@@ -58,7 +58,7 @@ body{
 
 .container{
 ;
-	width: 960px;
+	width: 800px;
 	margin: auto;
 	background-color: white;
 }
@@ -98,7 +98,7 @@ body{
 	height: 280px;
 	background-image: url(img/hero.png);
 	background-size: cover;
-	background-position: 0 -190px;
+	background-position: 0 -130px;
 	border-top: 5px solid Dodgerblue;
 	border-bottom: 5px solid Dodgerblue;
 }
