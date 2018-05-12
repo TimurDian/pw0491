@@ -1,0 +1,167 @@
+.topheader{
+	width: 100%;
+	height: 150px;
+	margin-bottom:20px;
+}
+
+.logo{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+.logo img{
+	padding-left: 20px;
+	width: 150px;
+	height: 140px;
+}
+
+.quotes{
+	float: left;
+	width: 80%;
+	height: 100%;
+}
+.sosmed{
+	width: 15px;
+	margin-right: 5px;
+}
+
+table{
+	margin-left: 10%;
+}
+td{
+	padding-left: 10px;
+	padding-right: 30px;
+}
+
+.botheader{
+	height: 200px;
+	background-image:url(img/header.jpg);
+}
+
+.botheader .txtbothead{
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+
+}
+.container{
+	width: 100%;
+	height: 500px;
+	background-color: #dbdbdb;
+	padding-top: 20px;
+}
+
+.konten{
+	text-align: center;
+}
+
+.img-left .img-mid .img-right{
+	display: block;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.left{
+	background-color: white;
+	float: left;
+	width:31%;
+	height: 350px;
+	margin-left: 2%;
+	margin-right: 10px;
+	text-align: center;
+}
+.left img{
+	width: 420px;
+	height: 300px;
+	padding-top: 10px;
+
+}
+
+.mid{
+	background-color: white;
+	float: left;
+	width:31%;
+	height: 350px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+.mid img{
+	width: 400px;
+	height: 300px;
+	padding-top: 10px;
+}
+
+.right{
+	background-color: white;
+	float: left;
+	width:31%;
+	height: 350px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+.right img{
+	width: 400px;
+	height: 300px;
+	padding-top: 10px;
+}
+
+.desc{
+	font-size: 25px;
+	
+}
+
+.footer{
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+	width: 100%;
+	height: 250px;
+	background-color: #696969;
+	margin: auto;
+}
+
+.submit
+{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.kotakhasil{
+	margin: auto;
+	height: 20px;
+	width: 300px;
+	background-color: white;
+	border-bottom: 3px solid black;
+}
+.copy{
+	height: 50px;
+	background-color: white;
+	border-bottom: 2px solid black;
+
+}
+
+.copy .txtcopy{
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+
+.result{
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	
+}
